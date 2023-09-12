@@ -1,7 +1,7 @@
 # Jenkin-All
 Here I will upload all the Jenkin project, commands and all.
 
-****First go to EC2 Instance**
+**First go to EC2 Instance**
 
 Install Ec2 instance
 
@@ -18,3 +18,6 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 
 sudo apt-get update
 sudo apt-get install jenkins
+
+To check the process wheather jenkins installed or not 
+ps -ef | grep jenkin
