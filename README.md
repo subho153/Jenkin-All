@@ -3,7 +3,7 @@ Here I will upload all the Jenkin project, commands and all.
 
 **First go to EC2 Instance**
 
-Install Ec2 instance
+**Install Ec2 instance**
 
 sudo apt update
 sudo apt install openjdk-11-jre
