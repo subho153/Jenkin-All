@@ -41,4 +41,3 @@ systemctl restart docker
 http://<ec2-instance-public-ip>:8080/restart
 
 
-
