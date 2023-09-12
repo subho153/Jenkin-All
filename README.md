@@ -19,7 +19,4 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins
 
-To check the process wheather jenkins installed or not 
-
-
-ps -ef | grep jenkin
+To check the process wheather jenkins installed or not : **ps -ef | grep jenkin**
