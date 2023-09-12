@@ -4,7 +4,8 @@ Here I will upload all the Jenkin project, commands and all.
 **First go to EC2 Instance**
 
 **Install Ec2 instance**
-![Uploading image.png…]()
+![image](https://github.com/subha152/Jenkin-All/assets/51635202/38f513ac-4533-4bcc-b100-124c76449df0)
+
 
 
 
