@@ -32,8 +32,8 @@ sudo apt update
 sudo apt install docker.io
 
 **Grant the permission to docker deamon jenkins user and Ubuntu user**
-sudo su - 
-usermod -aG docker jenkins
+1. sudo su - 
+2. usermod -aG docker jenkins
 usermod -aG docker ubuntu
 systemctl restart docker
 
