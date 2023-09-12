@@ -20,4 +20,6 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 To check the process wheather jenkins installed or not 
+
+
 ps -ef | grep jenkin
