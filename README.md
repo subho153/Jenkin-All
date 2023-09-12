@@ -1,4 +1,4 @@
-![image](https://github.com/subha152/Jenkin-All/assets/51635202/5fa103f6-4185-4d18-a6fd-eb65a1503a15)# Jenkin-All
+# Jenkin-All
 Here I will upload all the Jenkin project, commands and all.
 
 **First go to EC2 Instance**
