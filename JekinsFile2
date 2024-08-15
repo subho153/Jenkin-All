@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+    tools{
+        jdk 'jdk17'
+        maven 'maven3'
+    }
+    environment{
+        SCANNER_HOME=tool 'sonar-scanner'
+    }
+    stages {
+        stage('Git checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/jaiswaladi246/Petclinic.git'
+            }
+        }
+        stage('Maven test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Maven Build') {
+            steps {
+                sh 'mvn package'
+            }
+        }
+        stage('SonarQubeAnalysis') {
+            steps {
+                withSonarQubeEnv('sonar-scanner') {
+                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Petclinic \
+                    -Dsonar.java.binaries=. \
+                    -Dsonar.projectKey=Petclinic '''
+                }
+            }
+        }
+    }
+}
